@@ -1,0 +1,7 @@
+python-telegram-bot[job-queue]>=21.6,<22
+anthropic>=2.3
+faster-whisper>=1.1
+# PyAV 19 несовместим с faster-whisper 1.2 (decode_audio падает)
+av<19
+python-dotenv>=1.0
+tzdata
